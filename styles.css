@@ -1,0 +1,95 @@
+/*remove the base styles*/
+html {
+}
+body {
+  height: 100vh;
+  width: auto;
+  margin: 0px;
+  padding: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #00a0c6;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:active {
+  color: rgb(231, 213, 15);
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: 0px solid;
+}
+
+img {
+  display: block;
+}
+/*remove the base styles*/
+
+/*My styles*/
+.header {
+  width: 100%;
+  height: 420px;
+  background-color: #000000;
+  color: #fefefe;
+  text-align: center;
+}
+#headerName {
+  margin-top: 150px;
+}
+.nav {
+}
+.navList {
+  display: flex;
+  justify-content: center;
+}
+.main {
+  padding: 20px 10px 5px 10px;
+}
+.aboutMe {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.mySkills {
+  padding-top: 20px;
+  padding-right: 200px;
+  padding-bottom: 10px;
+  padding-left: 200px;
+}
+.mySkillsList {
+  display: flex;
+}
+.footer {
+  height: 100px;
+  background-color: #000000;
+  color: #fefefe;
+}
+.footer p {
+  padding-top: 70px;
+  text-align: center;
+}
+
+/*My styles*/
